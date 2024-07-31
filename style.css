@@ -1,0 +1,43 @@
+*{
+    font-family: "Gupter", serif;
+}
+header{
+    background-color: #894d69;
+}
+header span{
+    color: #FBC6A4;
+}
+.nav-item a{
+    background-color: #894d69;
+}
+/*LINK VISITADO*/
+.nav-item a:visited{
+    color: #F8EDED;
+}
+.nav-item a:hover{
+    color: #ff922cc5;
+}
+
+#nav-butoon{
+    background-color: #ff8325e5;
+}
+.bi{
+    color: #B43F3F;
+    font-size: 2em;
+}
+.img-proyecto1{
+    background-image: url('imagenes/clonpinterest.png');
+    background-size: cover; /*AJISTAR EL TAMAÑO DE LA IMAGEN PARA CUBRIR EL CONTENEDOR*/
+    background-repeat: no-repeat;
+    position: relative; /*NECESARIO PARA COLOCAR EL PSEUDO ELEMENTO*/
+}
+.img-proyecto1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba (0,0,0,0.9);
+    pointer-events: none;
+}

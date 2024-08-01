@@ -5,7 +5,7 @@ header{
     background-color: #894d69;
 }
 header span{
-    color: #FBC6A4;
+    color: #fdfbfa;
 }
 .nav-item a{
     background-color: #894d69;
@@ -55,4 +55,7 @@ footer p{
 }
 footer p a{
     color: #F8EDED;
+}
+#app{
+    color: #bf221ae3;
 }
